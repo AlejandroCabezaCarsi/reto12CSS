@@ -1,93 +1,81 @@
-.fila1 {
+.tituloIzquierda {
+    border: solid 1px black;
+    height: 50px;
     display: flex;
-    flex-direction: row ;
-    height: 112.5px;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 
-.cuerpo { 
+.tituloDerecha { 
+    border: solid 1px black;
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    height: 225px;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda {
+    border: solid 1px black;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.tercera {
+    border: solid 1px black;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.cuartaIzquierda { 
+    border: solid 1px black;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.segundaYTercera {
+    border: solid 1px black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cuartaDerecha {
+    border: solid 1px black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.columnaIzquierda {
+    width: 750px ; 
+    display: flex;
+    flex-direction: column;
     background-color: aqua;
 }
 
-.doble {
-    height: 225px;
-    width: 300px;
-    background-color: blue;
-}
-
-.dosTercios { 
-    height: 112.5px;
-    width: 600px;
-    background-color: brown;
-}
-
-.unTercio { 
-    width: 300px;
-}
-
-#posicionActividad{
+.columnaDerecha {
+    width: 250px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
+    flex-direction: column;
+    background-color: red;
 }
-#posicionTarifaHora{
+
+#global { 
+    width: 1000px;
+    height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-}
-#posicionAerobic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-}
 
-#posicionStep{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-}
-
-
-#posicion3E {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-
-}
-
-#posicionMusculacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-}
-
-#posicion4E{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-}
-
-
-
-
-
-
-
-
-
-
-
-body {
-    width: 900px;
-    height: 450px;
 }
